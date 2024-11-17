@@ -13,7 +13,7 @@ type CardPropsText = React.ComponentProps<typeof Text> & {
 const Card = React.forwardRef<View, CardPropsView>(({ className, ...props }, ref) => (
   <View
     ref={ref}
-    className={cn("bg-card p-4 rounded-xl shadow-md w-full lg:w-1/4 border border-border", className)}
+    className={cn("bg-card mb-5 p-4 rounded-xl shadow-md w-full lg:w-1/4 border border-border", className)}
     {...props}
   />
 ));

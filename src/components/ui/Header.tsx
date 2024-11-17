@@ -8,7 +8,7 @@ interface HeaderProps {
 
 export function Header({ title, subtitle }: HeaderProps) {
   return (
-    <View className="w-full justify-center items-center h-[20%] bg-[#000]">
+    <View className="w-full items-center h-[18%] bg-black">
       <Text className="text-white just font-bold text-3xl mt-8 pt-10">{title}</Text>
       <Text className="text-muted-foreground">{subtitle}</Text>
     </View>
